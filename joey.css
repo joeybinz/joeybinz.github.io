@@ -1,0 +1,32 @@
+body {
+    background-color:#006DAA;
+    color:#22181C;
+    font-family: Courier;
+    font-size:large;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    display: block;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #EBF5EE;
+    text-align: left;
+    align-self: left;
+}
+
+a:link, a:visited, a:active
+{
+    color: #22181C;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:#382d31
+}

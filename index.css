@@ -1,0 +1,51 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+        to right,
+        #1E2D24 0%,
+        #1E2D24 33.33%,
+        #A5402D 33.33%,
+        #A5402D 66.66%,
+        #006DAA 66.66%,
+        #006DAA 100%
+      );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #EBF5EE;
+    color:#22181C;
+    font-family: Courier;
+    font-size:large;
+    width: fit-content;
+    padding: 1%;
+    height: fit-content;
+}
+
+a:link, a:visited, a:active
+{
+    color: #22181C;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:#382d31
+}
+
+.link {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+/* split background methodology taken from 
+https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
