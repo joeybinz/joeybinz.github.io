@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background: #1E2D24;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.content_container {
+    justify-content: left;
+    color: #71B340
+}
+
+.content_container h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content_container h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.content_container div {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.content_heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.content_container p {
+    margin-bottom: 8px;
+    margin-top: 5px;
+    width: 75%;
+    height: fit-content;
+    line-height: 1.5em;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_title {
+    color:#71B340;
+    text-align: center;
+    font-weight: bolder;
+    width:fit-content;
+    height: fit-content;
+}
+
+.title_section {
+    width: 100%;
+    min-height: 75vh;
+    background:#1E2D24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right:0.15em solid #71B340;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    animation:
+        typing 2s steps(50, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #71B340; }
+}
+
+.title {
+    background-color: transparent;
+    color:#71B340;
+    font-family: Helvetica;
+    font-size:larger;
+    width: fit-content;
+    padding: 1%;
+    height: fit-content;
+    font-weight: bolder;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    text-align: center;
+    /* border-radius: 5%; */
+}
+
+a:link, a:visited, a:active
+{
+    color: #22181C;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:#382d31
+}
+
+.link {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
