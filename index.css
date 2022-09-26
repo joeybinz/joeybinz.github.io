@@ -7,24 +7,9 @@
 }
 
 body {
-    /* width: 100%;
-    min-height: 100vh; */
     background: #1E2D24;
-    /* background: #2D4A25; */
     -ms-overflow-style: none;
     scrollbar-width: none;
-    /* background: linear-gradient(
-        to right,
-        #1E2D24 0%,
-        #1E2D24 33.33%,
-        #A5402D 33.33%,
-        #A5402D 66.66%,
-        #006DAA 66.66%,
-        #006DAA 100%
-      ); */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .content_container {
@@ -89,15 +74,6 @@ section {
     width: 100%;
     min-height: 75vh;
     background:#1E2D24;
-    /* background: linear-gradient(
-        to right,
-        #1E2D24 0%,
-        #1E2D24 33.33%,
-        #A5402D 33.33%,
-        #A5402D 66.66%,
-        #006DAA 66.66%,
-        #006DAA 100%
-      ); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,5 +133,3 @@ a:hover
     font-weight: bolder;
     font-size: larger;
 }
-/* split background methodology taken from 
-https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
