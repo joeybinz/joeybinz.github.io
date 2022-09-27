@@ -26,6 +26,13 @@ body {
     margin-bottom: 20px;
 }
 
+.skill_heading {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
 .content_container h2 {
     font-size: 1.25em;
     font-weight: normal;
@@ -82,6 +89,31 @@ section {
     align-items: center;
 }
 
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height:fit-content;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.column h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.typewriter {
+    margin-bottom: 200px;
+}
+
+.typewriter a {
+    margin-bottom: 20px;
+}
+
 .typewriter h1 {
     overflow: hidden;
     white-space: nowrap;
@@ -89,7 +121,7 @@ section {
     margin: 0 auto;
     letter-spacing: .10em;
     margin-top: 350px;
-    margin-bottom: 350px;
+    margin-bottom: 100px;
     animation:
         typing 2s steps(50, end),
         blink-caret .75s step-end infinite;
