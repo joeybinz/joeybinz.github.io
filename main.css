@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+    color:#71B340;
 }
 
 body {
@@ -14,7 +15,8 @@ body {
 
 .content_container {
     justify-content: left;
-    color: #71B340
+    color: #71B340;
+    min-height: fit-content;
 }
 
 .content_container h1 {
@@ -32,7 +34,7 @@ body {
 }
 
 .content_container div {
-    margin-left: 20%;
+    margin-left: 33%;
     margin-right: 20%;
     margin-top: 50px;
     width: 100%;
@@ -119,13 +121,12 @@ section {
 
 a:link, a:visited, a:active
 {
-    color: #22181C;
-    text-decoration: none;
+    color: #71B340;
 }
 
 a:hover
 {
-    color:#382d31
+    color:#528030
 }
 
 .link {
@@ -133,3 +134,115 @@ a:hover
     font-weight: bolder;
     font-size: larger;
 }
+
+.project_cards_header {
+    text-align:center; 
+    height: fit-content; 
+    min-height: 0; 
+    margin-top: 150px; 
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.project_cards {
+    min-height: fit-content;
+    justify-content: center;
+}
+
+        /*  second card type css */
+        /* Taken from */
+        /* MIT Liscense Copyright (c) 2021 by Tuan (https://codepen.io/keubibo/pen/yLXYVOK) */
+        .container {
+            position : relative;
+            width : 1100px;
+            display : flex;
+            align-items : center;
+            justify-content : center;
+            flex-warp : warp;
+            padding : 30px;
+            
+          }
+          
+          .container .card {
+            position: relative;
+            max-width : 300px;
+            height : 215px;  
+            background-color : #fff;
+            margin : 30px 10px;
+            padding : 20px 15px;
+            background: #0000; 
+            /* delete to get white boxes back ^ */
+            
+            display : flex;
+            flex-direction : column;
+            box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+            transition : 0.3s ease-in-out;
+            border-radius : 15px;
+          }
+          .container .card:hover {
+            height : 365px;    
+          }
+          
+          
+          .container .card .image {
+            position : relative;
+            width : 260px;
+            height : fit-content;
+            background:#0000;
+            
+            top : -40%;
+            left: 8px;
+            
+            z-index : 1;
+          }
+          
+          .container .card .image img {
+            max-width : 100%;
+            border-radius : 10px 10px 10px 10px;
+            box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+            
+          }
+          
+          .container .card .content {
+            position : relative;
+            top : -140px;
+            padding : 10px 15px;
+            color : #111;
+            text-align : center;
+            
+            visibility : hidden;
+            opacity : 0;
+            transition : 0.3s ease-in-out;
+              
+          }
+
+          .container .card .card_title {
+            visibility: visible;
+            opacity: 1;
+            text-align: center;
+            justify-content: center;
+            font-size: larger;
+            font-weight: bolder;
+          }
+
+          .container .card:hover .card_title {
+            position : relative;
+            color : #111;
+            text-align : center;
+
+            visibility : hidden;
+            opacity : 0;
+            transition : 0.3s ease-in-out;
+            width: 0;
+            height: 0;
+              
+          }
+          
+          .container .card:hover .content {
+             margin-top : 30px;
+             visibility : visible;
+             opacity : 1;
+             transition-delay: 0.2s;
+            
+          }
